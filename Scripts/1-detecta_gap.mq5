@@ -35,7 +35,7 @@ void OnStart()
          }else if(candleAtual.open < candleAnterior.close){
             Print("Na data ", candleAnterior.time, " Ocorreu um GAP de BAIXA");
          }else{
-            Print("Não ocorreu GAP nos periodos ", i-1, " - ", i);
+            Print("Não ocorreu GAP nos periodos ", i+1, " - ", i);
          }
       }
    }else {
